@@ -73,4 +73,4 @@ def home():
     return render_template('home.html', result_message=result_message)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)

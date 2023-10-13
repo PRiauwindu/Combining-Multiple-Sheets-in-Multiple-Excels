@@ -56,7 +56,6 @@ def combine_and_export_sheets(input_folder, output_folder='output_folder'):
         return result_message
     except Exception as e:
         error_message = f'An error occurred: {e}'
-        # You might want to log the exception for further investigation
         return error_message
 
 @app.route('/', methods=['GET', 'POST'])

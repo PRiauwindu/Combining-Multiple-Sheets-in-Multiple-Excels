@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Combining-Multiple-Sheets-in-Multiple-Excels'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E582EE1D9A8D42C7962C273554936380 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6926DAF473ED449B8F5ED6C2FB81B25D }}
